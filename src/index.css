@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *:focus-visible {
+    outline: 3px solid #FF3366;
+    outline-offset: 2px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFDF7;
+  color: #1A1A1A;
+}
+
+@layer utilities {
+  .neo-border {
+    border: 3px solid #1A1A1A;
+  }
+
+  .neo-shadow {
+    box-shadow: 4px 4px 0px #1A1A1A;
+  }
+}
