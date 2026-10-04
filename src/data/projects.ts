@@ -7,7 +7,7 @@ export const projectsData: CardData[] = [
     description: 'A neobrutalism-styled personal profile website built with Vite, React, and Tailwind CSS.',
     detail: 'This is the very site you are viewing. Built as a multi-page SPA with React Router, it features dedicated pages for About, Projects, Resources, and Contact. The design follows a neobrutalism aesthetic — bold borders, offset shadows, and saturated accent colors. The code is modular: data is separated from components, making it easy to update content without touching layout. Deployed on Vercel with automatic CI/CD from GitHub.',
     tags: ['React', 'Tailwind', 'Vite', 'TypeScript'],
-    link: 'https://github.com/hudhaikal',
+    link: 'https://github.com/hud-haikal/hud-haikal-profile',
   },
   {
     id: 'mwcnt-pa6-dispersion',
